@@ -44,7 +44,8 @@ button {
 
 body {
     font-family: var(--font-family);
-    color: var(--navy-blue);
+    color: var(--slate);
+    background-color: var(--white);
     font-weight: 400;
 }
 
@@ -63,11 +64,11 @@ body {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: var(--iris);
 }
 
-.page-logo span {
-    color: var(--iris);
+.page-logo-span {
+    color: var(--ocean);
 }
 
 .main-menu {
@@ -92,7 +93,7 @@ body {
 }
 
 .header-contacts {
-    
+    font-style: normal
 }
 
 .header-contacts-list {
@@ -106,7 +107,6 @@ body {
 .header-contacts-link {
     font-weight: 400;
     font-size: 16px;
-    font-style: normal;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--slate);
@@ -114,7 +114,7 @@ body {
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-    color: var(--iris)
+    color: var(--ocean)
 }   
 
 .main-content {
@@ -148,6 +148,11 @@ body {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: var(--white);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: var(--ocean);
 }
 
 .we-section {
@@ -188,6 +193,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
+    text-transform: capitalize
 }
 
 .team-list {
@@ -232,6 +238,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
+    text-transform: capitalize
 }
 
 .portfolio-list {
@@ -275,11 +282,11 @@ body {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud);
+    color: var(--iris);
 }
 
-.page-footer-logo span {
-    color: var(--iris);
+.page-footer-logo-span {
+    color: var(--cloud);
 }
 
 .footer-text {
